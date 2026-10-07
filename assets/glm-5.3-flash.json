@@ -1,0 +1,32 @@
+{
+ "id": "glm-5.3-flash",
+ "name": "GLM-5.3-Flash",
+ "limit": {
+  "context": 1000000,
+  "output": 131072
+ },
+ "modalities": {
+  "input": [
+   "text",
+   "image",
+   "video",
+   "pdf"
+  ],
+  "output": [
+   "text"
+  ]
+ },
+ "reasoning": true,
+ "reasoning_options": [
+  {
+   "type": "effort",
+   "values": [
+    "low",
+    "high",
+    "max"
+   ]
+  }
+ ],
+ "attachment": true,
+ "source": "models.dev/zai @ 2026-10-06"
+}

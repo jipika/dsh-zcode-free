@@ -1,0 +1,26 @@
+{
+  "name": "dsh-zcode-free",
+  "icon": "./assets/icon.svg",
+  "version": "0.1.0",
+  "description": "Native DSH provider for ZCode Start Plan's free GLM-5.3-Flash: loopback gateway prepends official identity blocks, injects the local JWT, streams Anthropic SSE straight through. No LLM key, no Electron shell, no subagent.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "package.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "^0.87.1",
+    "@deepseek-ai/dsh-llm": "*",
+    "@deepseek-ai/dsh-llm-pi-ai": "*"
+  },
+  "license": "MIT"
+}

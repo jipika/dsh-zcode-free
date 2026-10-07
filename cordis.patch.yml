@@ -1,0 +1,8 @@
+# dsh-zcode-free bundle patch —— 一行 insert 即挂载。
+- insert:
+    - id: dsh-zcode-free
+      name: 'dsh-zcode-free'
+      config:
+        enabled: true
+        providerId: 'zcode'
+        providerName: 'ZCode Start Plan（GLM 免费额度）'
